@@ -3,8 +3,11 @@ CrystalBall is a data mining research platform that helps developing strategies 
 CrystallBall acquires 5 minutes bar data through InteractiveBrokers TWS API and forcasts prices through Weka machine learning software tool.
 
 Project Installation:
-Use this command to install Pentaho time series analysis and forecasting package to local maven repository:
-mvn install:install-file -Dfile=lib\pdm-timeseriesforecasting-ce-TRUNK-SNAPSHOT.jar -DgroupId=com.pentaho -DartifactId=pdm-timeseriesforecasting-ce -Dversion=1.0.16 -Dpackaging=jar 
+Install Pentaho time series analysis and forecasting package to local maven repository:
+mvn install:install-file -Dfile=lib\pdm-timeseriesforecasting-ce-TRUNK-SNAPSHOT.jar -DgroupId=com.pentaho -DartifactId=pdm-timeseriesforecasting-ce -Dversion=1.0.16 -Dpackaging=jar
+
+Install TwsApi to local maven repository:
+mvn install:install-file -Dfile=lib\TwsApi.jar -DgroupId=com.interactivebrokers.tws -DartifactId=TwsApi -Dversion=9.72.08 -Dpackaging=jar
 
 Data Analysis Tools:
 Weka machine learning algorithms
